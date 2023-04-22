@@ -1,0 +1,197 @@
+.register-student input[type="text"] {
+    border: 1px solid #00fbff;
+    font-size: medium;
+    border-radius: 5px;
+    padding: 15px 10px;
+    width: 400px;
+    max-width: 80%;
+    margin: 10px;
+
+}
+
+.register-student input[type="submit"] {
+    margin-top: 10px;
+}
+
+.main {
+    margin-top: 10%;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 50px;
+    background-image: url("../ELSE-Logo-UTM-Tr.png");
+    background-size: 500px;
+}
+
+ul {
+    list-style: none;
+}
+
+.each-quiz {
+    margin: 10px;
+
+}
+
+.main h1 {
+    color: #ffa000;
+    position: relative;
+    top: -50px;
+    font-size: 70px;
+}
+
+.main h2 {
+    color: #ffa000;
+    font-size: 50px;
+    position: relative;
+    top: 30px;
+}
+
+.list-of-quizzes {
+    width: 100%;
+}
+
+.list-of-quizzes ul {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+
+    padding-top: 10px;
+}
+
+.list-of-quizzes ul li {
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px -2px #00fbff;
+
+    margin: 10px;
+    width: 250px;
+}
+
+.list-of-quizzes ul li:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 10px -2px #ffa600;
+}
+
+.quiz-title {
+    margin: 10px 0;
+    color: #262323;
+}
+
+.quiz-title-page {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: lighter;
+
+    text-decoration-line: underline;
+    text-decoration-color: #ffa000;
+    margin: 20px;
+}
+
+.element-question {
+    background-color: #ffa6003d;
+    padding: 30px;
+    margin: 10px 40px;
+
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px -2px #61dafb;
+}
+
+.element-questions-list {
+    display: flex;
+    width: 95%;
+    flex-direction: column;
+    text-align: left;
+
+}
+
+.question-title {
+
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+
+
+.question-answers {
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-bottom: 5px;
+}
+
+.question-answers label {
+    margin-left: 5px;
+}
+
+.question-answers input {
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    margin-left: 0;
+    accent-color: #ffa000;
+}
+
+.question-answers {
+    font-size: 18px;
+}
+
+input[type="submit"] {
+    border: none;
+    border-radius: 4px;
+    background-color: #00fbff5e;
+    cursor: pointer;
+    color: #464545;
+    font-family: 'Roboto', sans-serif;
+    font-size: x-large;
+    box-shadow: 0px 0px 11px -2px #ffa000;
+    padding: 10px 15px;
+    
+}
+
+input[type="submit"]:hover {
+    box-shadow: 0px 0px 11px -2px rgba(0, 255, 13, 0.85);
+}
+
+.question-submit-btn {
+    margin: 20px auto;
+    margin-right: 20px;
+}
+
+.quiz-result {
+    font-size: 40px;
+    margin-top: 10px;
+    color: #ffa000;
+}
+
+.element-header, .main-header, .main-header ul {
+    display: flex;
+}
+
+.main-header {
+    height: 100px;
+    align-items: center;
+    background-color: #00fbff5e;
+    width: 100vw;
+}
+
+.element-header {
+    padding: 0;
+    max-width: 1500px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-header a {
+    color: #ffa000;
+    font-size: 25px;
+    padding: 0 30px;
+}
+
+.element-logo {
+    background-image: url("../ELSE-Logo-UTM-Tr.png");
+    background-size: 350px;
+    height: 75px;
+    width: 350px;
+    object-fit: contain;
+}
